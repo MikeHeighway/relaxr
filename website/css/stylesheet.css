@@ -1,0 +1,190 @@
+/*Brand Colors*/
+.brand-color-yellow{
+	color:#f9e42e;
+}
+
+
+/*Typography*/
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size:62.5%;
+}
+
+
+h3, h4, p {
+	padding-left:10rem;
+}
+
+h1, h2, h3 {
+	margin:0px;
+}
+
+h1 {
+	font-size:4.8rem;
+	font-weight: 800;
+	font-style: normal;
+	color:#fff;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size:4.8rem;
+	color:#fff;
+	padding-top:10rem;
+	padding-bottom:10rem;
+}
+
+h3 {
+	font-weight:600;
+	font-size:4rem;
+	color:#033048;	
+	margin:0px;
+	text-align:left;
+	padding-top:10rem;
+}
+
+p.benefits, ul{
+	font-weight: 300;
+	font-size: 2.6rem;
+	color: #606161;
+	width: 60rem;
+}
+
+p.button-text {
+	font-weight:700;
+	font-size:2.8rem;
+	color: #033048;
+	padding: 0;
+	margin: 1rem auto;
+}
+
+p.but-yel-txt {
+	color: #033048;
+}
+
+p.but-slate-txt{
+	color: #fff;
+}
+
+ul {
+	padding-left: 16rem;
+	width:50rem;
+}
+
+.quote-block {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 3.2rem;
+	color:#fff;
+	width:60rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+.quote-citation {
+	font-weight: 600;
+	font-size: 3.2rem;
+	color:#fff;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+.logo-header {
+	padding: 2rem 0rem 0rem 6rem;
+}
+
+/* Footer */
+
+.logo-footer {
+	text-align:center;
+	padding-top:5rem;
+}
+
+p.footer-copyright {
+	font-weight: 400;
+	font-size: 1.8rem;
+	color:#fff;
+	text-align: center;
+	padding: initial;
+}
+
+blockquote {
+	font-weight:200;
+	font-size:1.8rem;
+	width:40rem;
+	text-align:center;
+	margin:0 auto;    
+	-webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 40px;
+  -webkit-margin-end: 40px;
+}
+
+
+/*Containers*/
+
+.hero-image {
+	background-image:url("../img/header_bg.jpg");
+	background-position: top;
+	height: 70rem;
+	background-repeat:no-repeat;
+
+}
+
+.benefits-container{
+	width:100%;
+	height:61.2rem;
+	background:#f0efef;
+}
+
+.testimonial-container{
+	margin:0 auto;
+	padding-top:20rem;
+	height:40rem;
+	background-image: url("../img/testimonial_bg.jpg")
+}
+
+.sign-up-block-container{
+	height: 12rem;
+	background:#f9e42e;
+	margin: none auto;
+	padding-top: 4rem;
+}
+
+.social-link-container{
+	display:inline-block;
+	padding: 2rem;	
+}
+
+footer{
+	background: #121212;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+
+/* Master Button */
+.button-container{
+	border: none;
+	height: 6rem;
+	width: 26rem;
+	border-radius: .5rem;
+	padding: .4rem;
+	margin:0 auto;
+	text-align: center;
+}
+
+/* Yellow Button Coloring */
+.but-ylw{
+	background-color: #f9e42e;
+}
+/* Slate Button Coloring */
+.but-slate{
+	background-color: #033048;
+}
+
+
