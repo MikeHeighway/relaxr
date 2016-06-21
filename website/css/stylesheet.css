@@ -1,8 +1,12 @@
 /*Brand Colors*/
-.brand-color-yellow{
+.brand-yellow{
 	color:#f9e42e;
 }
 
+/* Structural */
+.left{
+	padding-left:10rem;
+}
 
 /*Typography*/
 
@@ -10,7 +14,6 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	font-size:62.5%;
 }
-
 
 h3, h4, p {
 	padding-left:10rem;
