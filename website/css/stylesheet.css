@@ -31,7 +31,7 @@ html {
 	font-size:62.5%;
 }
 
-h3, h4, p {
+h4, p {
 	padding-left:10rem;
 }
 
@@ -41,6 +41,7 @@ h1 {
 	font-style: normal;
 	text-align: left;
 	color:#fff;
+	margin-top: 0;
 }
 
 h2 {
@@ -52,12 +53,12 @@ h2 {
 }
 
 h3 {
-	font-weight:600;
-	font-size:4rem;
+	font-weight:800;
+	font-size:3.2rem;
 	color:#033048;	
 	margin:0px;
 	text-align:left;
-	padding-top:10rem;
+	padding-top:5rem;
 }
 
 p {
@@ -89,6 +90,20 @@ p.button-text {
 	margin: 1rem auto;
 }
 
+p.side-bar {
+	font-size: 2.2rem;
+	line-height: 2.5rem;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+
+p.side-bar-link {
+	font-size: 2.2rem;
+	font-weight:800;
+	line-height: 2rem;
+	margin-top: 1rem;
+}
+
 p.but-yel-txt {
 	color: #033048;
 }
@@ -108,6 +123,13 @@ p.but-slate-txt{
 	margin: 2rem;
 }
 
+ul {
+	font-size: 2.4rem;
+	font-weight: 300;
+	list-style: none;
+	padding-left: 2rem;
+}
+
 .logo-header {
 	display: inline-block;
 	margin: 2.8rem 0rem 2.7rem 12rem;
@@ -117,7 +139,7 @@ p.but-slate-txt{
 
 .logo-footer {
 	text-align:center;
-	padding-top:5rem;
+	padding-top: 5rem;
 }
 
 p.footer-copyright {
@@ -147,7 +169,7 @@ nav {
 	background: #efefee;
 }
 
-.main-blog{
+#main-blog{
 	display: inline-block;
 	padding: 0 2rem 0 12rem;
 	max-width: 70rem;
@@ -169,11 +191,11 @@ hr{
 	margin:0 auto;
 }
 
-.sidebar {
+#sidebar {
 	display: inline-block;
+	vertical-align: top;
 	margin:0;
-	width: 16%;
-	background-color: blue;
+	width: 24rem;
 }
 
 .sign-up-block-container{
