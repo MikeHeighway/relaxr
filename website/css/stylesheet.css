@@ -173,6 +173,7 @@ nav {
 	display: inline-block;
 	padding: 0 2rem 0 12rem;
 	max-width: 70rem;
+	margin-bottom: 8rem;
 }
 
 .blog-post {
