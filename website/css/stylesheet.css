@@ -7,13 +7,21 @@
 	color: #033048;
 }
 
+.brand-grey {
+	color: #606161;
+}
+
+.brand-white {
+	color: #fff;
+}
+
 .blue-bg {
 	background-color: #033048;
 }
 
 /* Structure */
 .left {
-	padding-left:10rem;
+	padding-left: 12rem;
 }
 
 /*Typography*/
@@ -31,16 +39,16 @@ h1 {
 	font-size:4.8rem;
 	font-weight: 800;
 	font-style: normal;
+	text-align: left;
 	color:#fff;
 }
 
 h2 {
-	text-align: center;
-	font-weight: 400;
-	font-size:4.8rem;
+	text-align: left;
+	font-weight: 600;
+	font-size:4rem;
 	color:#fff;
-	padding-top:10rem;
-	padding-bottom:10rem;
+	margin: 8rem 0 5rem 0;
 }
 
 h3 {
@@ -50,6 +58,13 @@ h3 {
 	margin:0px;
 	text-align:left;
 	padding-top:10rem;
+}
+
+p {
+	font-size: 2.4rem;
+	font-weight: 200;
+	margin: 2rem auto;
+	padding: 0;
 }
 
 p.button-text {
@@ -70,8 +85,7 @@ p.but-slate-txt{
 
 .ul-nav-list {
 	list-style-type: none;
-	display:inline-block;
-	text-align: right;
+	margin: 0 auto;
 }
 
 .li-nav-list{
@@ -82,7 +96,7 @@ p.but-slate-txt{
 
 .logo-header {
 	display: inline-block;
-	margin: 2rem 0rem 0rem 6rem;
+	margin: 2.8rem 0rem 2.7rem 12rem;
 }
 
 /* Footer */
@@ -104,14 +118,49 @@ p.footer-copyright {
 
 /*Containers*/
 
-.main{}
 
-nav {
-	display: inline-block;
-	text-align: right;
-	margin: 0 12rem 0 0;
+header{
+	height:12rem;
 }
 
+nav {
+	position: absolute;
+	display: inline-block;
+	text-align: right;
+	margin: 2.8rem 0 2.7rem 0;
+}
+.main-container{
+	background: #efefee;
+}
+
+.main-blog{
+	display: inline-block;
+	padding: 0 2rem 0 12rem;
+	max-width: 70rem;
+}
+
+.blog-post {
+	display: inline-block;
+	margin:0;
+}
+
+img {
+	margin:0;
+	text-align: left;
+}
+
+hr{
+	border-top: 0.1rem solid;
+	border-bottom: none;
+	margin:0 auto;
+}
+
+.sidebar {
+	display: inline-block;
+	margin:0;
+	width: 16%;
+	background-color: blue;
+}
 
 .sign-up-block-container{
 	height: 12rem;
