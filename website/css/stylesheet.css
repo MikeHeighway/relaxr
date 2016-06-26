@@ -67,6 +67,20 @@ p {
 	padding: 0;
 }
 
+p.drop-cap::first-letter{
+	font-size: 8rem;
+	font-weight: 600;
+	line-height: 7.5rem;
+	margin: 0 2rem 0 0;
+	float:left;
+}
+
+p.read-more{
+	font-size: 2.4rem;
+	font-weight: 600;
+	text-align: right
+}
+
 p.button-text {
 	font-weight:700;
 	font-size:2.8rem;
